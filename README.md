@@ -8,7 +8,7 @@
 
 ## Screenshot 
   ```md
-    ![alt text](assets/images/screenshot.png)
-  ```
+    ![Screenshot](assets/images/screenshot.png)
+  ```md
 
 ## Link to Website 
