@@ -9,6 +9,6 @@
 ## Screenshot 
   ```md
     ![Screenshot](assets/images/screenshot.png)
-  ```md
+  ```
 
 ## Link to Website 
