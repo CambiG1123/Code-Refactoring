@@ -1,4 +1,4 @@
-/* Global settings and Headings */
+/* Global settings and Headings. Removed unnecessary selectors*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -24,20 +24,20 @@ h4 {
     font-size: 20px;
 }
 
-/* Header */
+/* Header. Added semantic element header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Removed redundant class selectors */
 .seo {
     color: #d9dcd6;
 }
 
-/* Nav Bar */
-header nav {
+/* Nav Bar. Removed div element and replaced it with the semantic element Nav, and removed redundant class selectors. */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -45,7 +45,7 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul li {
+ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -60,7 +60,7 @@ header nav ul li {
     background-position: center;
 }
 
-/* Main Body */
+/* Main Body. Added semantic element Main. Removed div class .content */
 body {
     background-color: #d9dcd6;
 }
@@ -81,7 +81,7 @@ p {
     font-size: 16px;
 }
 
-/* Article */
+/* Article. Added semantic element article replacing the class .content and its related divs */
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -90,7 +90,7 @@ article {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Consolidated all images within the article article img  */
 article img {
     max-height: 200px;
 }
@@ -105,7 +105,7 @@ article img {
     margin-left: 25px;
 }
 
-/* Aside */
+/* Aside. Added semantic element aside replacing the class .benefits and its related classes. */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -125,7 +125,7 @@ aside img {
     max-width: 150px;  
 }
 
-/* Footer */
+/* Footer. Added semantic element footer replacing the class .footer . */
 footer {
     padding: 30px;
     clear: both;
